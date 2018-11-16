@@ -1,0 +1,120 @@
+body {
+    font-family: AvenirNext,Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    background-color: #eceef1;
+}
+.topRight {
+    display: flex;
+    justify-content: flex-end;
+}
+#padding {
+    text-align: left;
+    font-size: 10pt;
+    line-height: 1.5;
+    padding-top: 0.1%;
+    padding-right: 5px;
+    font-weight: 400;
+    color: rgb(50, 50, 50);
+}
+.link {
+    text-decoration: none;
+    color: #0077C5;
+}
+.mainLogo {
+    display: flex;
+    justify-content: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 1.25%;
+    padding-left: 5px;
+}
+.mainLogin {
+    border: 1px solid rgba(128, 128, 128, 0.459);
+    line-height: 1.2;
+    background: white;
+    color: #4C4C4C;
+    flex-direction: column;
+    justify-content: center;
+}
+#slogan {
+    font-weight: 450;
+    font-size: 18pt;
+    padding-top: 10px;
+    text-align: center;
+    justify-content: center;
+}
+#create {
+    font-size: 11pt;
+    text-align: center;
+}
+#username {
+    color: #404040;    
+    line-height: 2;
+    font-size: 14px;
+    justify-content: center;
+    text-align: center;
+}
+#box {
+    height: 30px;
+    border: 1px solid #C1C5C8;
+    border-radius: 3px;
+    width: 317px;
+}
+#buffer {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+#smalltext {
+    font-size: 10px;
+    font-weight: 400;
+    text-align: left;
+    padding-left: 25px;
+}
+.flex {
+    display: flex;
+    justify-content: center;
+}
+#privacy {
+    text-align: center;
+    font-size: 12px;
+    font-style: italic;
+    color: #bbb;
+    line-height: 2;
+}
+.padding {
+    text-align: left;
+    padding-left: 30px;
+    padding-bottom: 10px;
+}
+.bottomGray {
+    line-height: 1.2;
+    background: #ECEEF1;
+    color: #8d9096;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 10px;
+    text-align: center;
+    border-top: 0;
+    padding: 20px;
+}
+.legal {
+    text-align: center;
+    flex-direction: column;
+    border: none !important;
+    background-color: #eceef1;
+    font-size: 12px;
+    line-height: 1.5;
+}
+#text {
+    padding: 10px;
+    color: #505050 !important;
+}
+.buttons {
+    text-decoration: none;
+    color: #505050;
+    font-size: 12px;
+    padding: 5px;
+}
+.buttons:hover {
+    text-decoration: underline;
+}
